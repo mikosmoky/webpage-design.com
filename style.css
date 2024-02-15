@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+ 
+    background-image: url('https://source.clinic.com/random');
+    background-size: cover;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.main {
+  width: 100%;
+  max-width: 1200px;
+  background-position: left;
+  background-position: center;
+  background-size: cover;
+  height: 109vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin: auto;
+  height: 75px;
+}
+
+.icon {
+  width: 200px;
+  float: left;
+  height: 70px;
+}
+
+.logo {
+font-family:  arial;
+  font-size: 35px;
+  font-weight: bold;
+  color: #ff7200;
+  float: left;
+  padding-left: 20px;
+  padding-top: 10px;
+  border-radius: 54px;
+  border-radius: 50px;
+  background: #a7daa7;
+  box-shadow:  20px 20px 60px #5ee75e,
+               -20px -20px 60px #1b291b;
+}
+
+.menu {
+  width: 400px;
+  float: left;
+  height: 70px;
+}
+
+.menu ul {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu li {
+  list-style: none;
+  margin-left: 40px;
+  margin-top:20px;
+  font-size: 14px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #070707;
+  transition: color 0.4s ease-in-out;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+.menu li a:hover {
+  color: #ff7200;
+}
+
+.search-bar {
+  width: 330px;
+  float: left;
+  margin-left: 200px;
+}
+.srch{
+  font-family: 'Times New Roman';
+  width: 100px;
+  height: 30px;
+  background: transparent;
+  border: 1px solid ;
+  margin-top: 13px;
+  color:rgb(47, 78, 255) ;
+  border-right: cadetblue;
+  font-size: 16px;
+ float: left;
+ padding: 10px;
+ border-bottom-left-radius: 5px;
+ border-top-right-radius: 5px;
+}
+
+.btn{
+  width: 100px;
+  height: 30px;
+  background: #858483;
+  border: 2px solid #dfe4e1;
+  margin-top: 10px;
+  color:#fff;
+  font-size: 15px;
+  border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.btn:focus{
+  outline: none;
+}
+.srch:focus{
+  outline: none;
+}
+.content{
+  width: 1200px;
+  height: auto;
+  margin: auto;
+  color: #000000;
+  position: relative;
+}
+.content .par{
+  padding-left: 20px;
+  padding-bottom: 25px;
+  font-family: arial;
+  letter-spacing: 1.2px;
+  line-height: 30px;
+}
+.content h1{
+  font-family: 'Times New Roman';
+  font-size: 50px;
+  padding-left: 20px;
+  margin-top: 7%;
+  letter-spacing: 3px;
+}
+.content .cn{
+  width: 160px;
+  height: 40px;
+  background: #ff7200;
+  border: none;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.content .cn a{
+  text-decoration: none;
+  color: #000;
+  transition: .3s ease;
+}
+.cn:hover{
+  background-color: #fff;
+}
+.content span{
+  color: #ff7200;
+  font-size: 60px;
+}
+.form{
+  width: 250px;
+  height: 380px;
+  background: linear-gradient(to top rgba(0,0,0.8)50% , rgba(0,0,0.8)50%);
+  position: absolute;
+  top: -20px;
+  left: 870px;
+  border-radius: 10px;
+  padding: 25px;
+  border-radius: 50px;
+  border-radius: 50px;
+  border-radius: 50px;
+background: #804d4d;
+box-shadow:  20px 20px 60px #3b9669,
+             -20px -20px 60px #544f9c;
+}
+.form h2{
+  width: 220px;
+  font-family: sans-serif;
+  text-align: center;
+  color: #ff7200;
+  font-size: 22px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 2px;
+  padding: 8px;
+}
+.form input{
+  width: 240px;
+  height: 35px;
+  background: transparent;
+  border-bottom:  1px solid #ff7200;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  color: #fff;
+  font-size: 15px;
+  border-left-width: 1px;
+  margin-top: 30px;
+  font-family: sans-serif;
+}
+.form input :focus{
+  outline: none;
+}
+::placeholder{
+  color: #fff;
+  font-family: Arial;
+}
+.btnn{
+  width: 240px;
+  height: 40px;
+  background: #ff7200;
+  border: none;
+  margin-top: 30px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+ transition: 0.4 ease; 
+}
+.btnn:hover{
+  background: #fff;
+  color: #ff7200;
+}
+.btnn a{
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+.form .link{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding-top: 30px;
+  text-align: center;
+}
+.form .link a{
+  text-decoration: none;
+  color: #ff7200;
+}
+.liw{
+  padding-top: 15px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.icon a{
+  text-decoration: none;
+  color: #fff;
+}
+.icon ion-icon{
+  width: 30px;
+  color: #00b849;
+  font-size: 30px;
+  padding-left: 34px;
+  padding-top: 5px;
+  transition: 0.3s ease;
+}
+.icon ion-icon:hover{
+  color: #ff0000;
+}
+.icon a {
+  padding: 1px;
+}
